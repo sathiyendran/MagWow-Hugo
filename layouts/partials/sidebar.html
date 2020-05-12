@@ -1,0 +1,24 @@
+<div class="shadow p-3 bg-white rounded">
+
+  <div class="widget">
+    <div class="section-heading">
+      <h5>Random Posts</h5>
+    </div>
+
+    {{ $randomPosts := shuffle (where .Site.Pages "Type" "post") | first 5 }}
+
+    {{ range $randomPosts  }}
+    <div>
+      <article class="text-center">
+        <h5> <a class="post-title" href="{{.Permalink}}">{{.Title}}</a></h5>
+        <a class="post-title" href="{{.Permalink}}"> <img class="img-fluid mb-4 rounded "
+            src="{{.Params.Image | absURL }}" alt="post-thumb"> </a>
+
+
+
+      </article>
+      <hr class="mt-2 mb-3" />
+    </div>
+    {{ end }}
+  </div>
+</div>

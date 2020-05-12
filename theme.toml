@@ -1,0 +1,12 @@
+name = "MagWow Hugo"
+license = "MIT"
+licenselink = "https://github.com/sathiyendran/MagWow-Hugo/blob/master/LICENSE"
+description = "Maya - Hugo Magazin Theme"
+homepage = ""https://github.com/sathiyendran/MagWow-Hugo/"
+tags = ['landing-page', 'fast', 'light', 'white', 'modern', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'creative', 'contact-form', 'custom-themes', 'mobile', 'minimalistic', 'pages', 'resume', 'portfolio', 'google analytics', 'customizable', 'flexbox', 'presentation', 'product', 'theme', 'typography']
+features = ['bootstrap','responsive']
+min_version = "0.62.2"
+
+[author]
+  name = "Sathiyendran"
+  homepage = ""https://github.com/sathiyendran/MagWow-Hugo/"
