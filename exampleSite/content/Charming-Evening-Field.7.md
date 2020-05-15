@@ -5,7 +5,7 @@ description: "This is meta description"
 type: "post"
 image: "images/masonary-post/post-8.jpg"
 categories: 
-  - "Food"
+  - "download"
 tags:
   - "Photos"
   - "Food"
