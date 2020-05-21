@@ -6,6 +6,8 @@ theme = "MagWow-Hugo"
 summaryLength = "10"
 paginate = 6
 disqusShortname = "yourdiscussshortname"
+FBPageLink = "https://www.facebook.com/facebook"
+FBPageName = "Mag"
 
 # output
 [outputs]
